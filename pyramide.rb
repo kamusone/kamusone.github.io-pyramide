@@ -1,0 +1,5 @@
+puts "Ramses ! tu veux combien d'étage pour ta pyramide ?"
+etage = gets.chomp.to_i
+i = etage
+  1.upto(i).each {|i|
+  	puts ("* " * i).rjust(etage*2)}
